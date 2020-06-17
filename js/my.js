@@ -32,6 +32,7 @@ $('#get_appointment').on('click', function(e) {
     // do something
     alert("We Will Contact you shortly :-)")
   );
+  $('#book_appointment').modal('hide');
 })
 
 // window.onload = function() {
