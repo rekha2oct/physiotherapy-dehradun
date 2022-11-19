@@ -16,7 +16,7 @@ $.fn.serializeObject = function()
    return o;
 };
 var $form = $('form#appointment_form'),
-    url = 'https://script.google.com/macros/s/AKfycbwaL5yOON17HtIkXVyLKub-yctFfC3GZCtNX-RGF2lJQen9aO5v_VfijxiPb2xdMNc7XQ/exec';
+    url = 'https://script.google.com/macros/s/AKfycbxtSEfvuqc4XnEbg3W_Sl171RNR95Lg9wPXUVdpe-org6qP6vKq_Ps5E8M4QDG7No2Bpw/exec';
            
 $('#get_appointment').on('click', function(e) {
 	console.log("form data = ",$form.serializeObject(),)
